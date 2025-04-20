@@ -1,3 +1,4 @@
+// Sebastian Pienaar u24778232
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
