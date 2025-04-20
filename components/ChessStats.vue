@@ -7,7 +7,7 @@ const profileUrl = computed(() => `https://www.chess.com/member/${config.public.
 <template>
   <div class="chess-stats">
     <h2>Chess.com Stats</h2>
-    <div v-if="pending">Loading chess stats...</div>
+    <div v-if="pending">Loading chess stats</div>
     <div v-else-if="error || stats?.error">
       Failed to load chess stats: {{ error?.message || stats?.error }}
       <p v-if="stats?.status === 404">Please check your Chess.com username is correct</p>

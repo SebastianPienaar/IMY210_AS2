@@ -8,7 +8,7 @@
         data-netlify="true"
         netlify-honeypot="bot-field"
         class="contact-form"
-      >
+        >
         <input type="hidden" name="form-name" value="contact">
         <p hidden>
           <label>Scammer get scammed buddy: <input name="bot-field"></label>
@@ -49,7 +49,7 @@ useHead({
 </script>
 
 <style>
-/* Add this at the top of your style section */
+
 :root {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }

@@ -1,16 +1,16 @@
 <template>
   <Layout>
     <div class="portfolio-container">
-      <!-- Hero Section -->
+     
       <section class="hero">
         <img src="/profile.jpg" alt="Profile" class="profile-img">
-        <h1>Welcome to My Portfolio</h1>
+        <h1>Sebastian Pienaar</h1>
         <p class="subtitle">University of Pretoria student | Web Developer</p>
       </section>
 
-      <!-- Main Content Grid -->
+      
       <div class="content-grid">
-        <!-- About Me Section -->
+      
         <section class="about-section card">
           <div class="section-header">
             <h2>About Me</h2>
@@ -21,10 +21,10 @@
               and web development. I have experience in C++, Java, JavaScript and XML. I am also interested in AI and machine learning.
               In my free time, I like to play chess, video games and watch movies.
             </p>
-          </div>
+          </div>   
         </section>
 
-        <!-- Weather Widget -->
+     <!-- weather -->
         <section class="weather-section card">
           <div class="section-header">
             <h2>Current Weather</h2>
@@ -45,7 +45,7 @@
           </div>
         </section>
 
-        <!-- Chess Stats Section -->
+        <!-- Chess section -->
         <section class="chess-section card">
           <div class="section-header">
             <h2>Chess Performance</h2>
@@ -65,20 +65,20 @@ import { useAsyncData } from 'nuxt/app'
 
 const weather = ref(null)
 
-// Fetch weather data using $fetch
+
 const { data } = await useAsyncData('weather', async () => {
   return await $fetch('https://api.open-meteo.com/v1/forecast?latitude=-25.73&longitude=28.22&current_weather=true')
 })
 weather.value = data.value
 
-// Convert weather code to text
+
 const weatherCodeToText = (code) => {
   const codes = {
     0: 'Clear sky',
     1: 'Mainly clear',
     2: 'Partly cloudy',
     3: 'Overcast',
-    // Add more codes as needed
+   
   }
   return codes[code] || 'Unknown weather'
 }
