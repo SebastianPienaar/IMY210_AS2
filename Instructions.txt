@@ -1,0 +1,45 @@
+Assignment breakdown
+• Create a basic portfolio website.
+• Host the website using a basic Jamstack structure
+• Use external API as a service
+• Write a short reflection on the process
+Final files to upload
+• A link to the live website
+• Code to your project, excluding the “node package” folder
+• A brief reflection (200–300 words) describing your experience with Jamstack, the challenges
+you faced, and what you learned.
+Resources
+• Jamstack Official Site
+• Jamstack resources (use this for your project as well)
+• Free APIs for Development
+• Netlify guide
+
+Task
+• Design a personal portfolio website The site should include:
+o A homepage with your name, a brief bio, and a photo
+o A “Project” section listing at least three projects (you may use projects/assignments
+from other modules)
+o A “Contact” section with a contact form 
+Part 1: Set Up the Project and adding content (10%)
+• For this assignment download and install Nuxt.js
+o https://nuxt.com/docs/getting-started/installation
+• Following the guide, install all the necessary tools and dependencies, and create your project
+• Create pages for the homepage, projects, and contacts
+o You are welcome to use any method for storing data for this part.
+Part 2: Integrate an API (45%)
+• Choose two external APIs to fetch dynamic content. These could be something simple like:
+o Weather API to print the current weather
+o An animal fact API that prints out random facts
+o GitHub API and pull your project from your repository
+Note: Refer to the list provided at the beginning of the document
+• Use a static form handling service like Netlify Forms, to support the contacts section.
+o https://docs.netlify.com/forms/setup/
+Part 3: Style the Website (20%)
+• Use CSS, SCSS, or even a framework like Tailwind CSS for styling.
+Note: Attractive and user-friendly design.
+Part 4: Deploy the Website (10%)
+• Finally host your website on Netlify.
+o https://app.netlify.com/
+• Access your project and ensure its live.
+Note: If you are unable to host your site, or the site is inaccessible at the point of marking, you will receive 0 for this
+part. 
